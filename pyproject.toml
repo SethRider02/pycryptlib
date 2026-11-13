@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pycryptlib"
+version = "0.1.0"
+description = "This library contains a multitude of cryptography functions that can be used in python."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Seth Bacher", email = "sethrider02@gmail.com" }]
+dependencies = [
+    "requests>=2.28",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Homepage = "https://github.com/you/mylib"
